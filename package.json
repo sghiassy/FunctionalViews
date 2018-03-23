@@ -7,9 +7,9 @@
     "pod:install": "cd Example; pod cache clean --all; rm -rf Pods; pod install; cd -",
     "pod:lint": "pod cache clean --all; pod lib lint --swift-version='4.0' --no-clean --verbose --sources='git@github.groupondev.com:ios/ios-groupon-cocoapods.git,https://github.com/CocoaPods/Specs'; cd -",
     "pod:publish": "pod repo push ios-groupon-cocoapods dealdetails.groupon.mobile.podspec --swift-version='4.0' --allow-warnings --sources='https://github.com/CocoaPods/Specs'",
-    "test": "cd Example; xcodebuild -workspace FunctionalViews.xcworkspace -scheme 'FunctionalViews-Example' -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.2' test; cd -",
+    "test": "fastlane test",
     "x": "open Example/FunctionalViews.xcworkspace",
-    "xcode:info": "cd Example; xcodebuild -workspace FunctionalViews.xcworkspace -list"
+    "xcode:info": "cd Example; xcodebuild -workspace FunctionalViews.xcworkspace -list; xcrun simctl list; cd -"
   },
   "repository": {
     "type": "git",

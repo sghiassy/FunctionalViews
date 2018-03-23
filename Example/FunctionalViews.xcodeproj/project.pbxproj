@@ -177,6 +177,7 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E153AE8164F94F3E289866E1 /* [CP] Embed Pods Frameworks */,
 				4CC9DE20A34D473EEA91ECA7 /* [CP] Copy Pods Resources */,
+				AA75293620659E47001DC3E6 /* Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -348,6 +349,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalViews_Tests/Pods-FunctionalViews_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AA75293620659E47001DC3E6 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
 		};
 		B9EE652409E4765A7469BE83 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

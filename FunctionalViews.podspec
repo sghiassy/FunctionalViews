@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FunctionalViews'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FunctionalViews.'
+  s.summary          = 'A UIKit Swift library to make Functional View programming possible'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                        DESC
 
-  s.homepage         = 'https://github.com/Shaheen Ghiassy/FunctionalViews'
+  s.homepage         = 'https://github.com/sghiassy/FunctionalViews'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaheen Ghiassy' => 'shaheen.ghiassy@gmail.com' }

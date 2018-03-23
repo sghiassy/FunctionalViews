@@ -13,11 +13,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .blue
+        self.view.backgroundColor = UIColor.blue
         let first = First()
-        first.text = "Functional Views example app"
+        first.text = "TravisCI Setup"
         first.frame = self.view.frame
-        first.textColor = .white
+        first.textColor = UIColor.white
         self.view.addSubview(first)
     }
 
