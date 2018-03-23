@@ -7,6 +7,6 @@
 
 import UIKit
 
-class First: UILabel {
+public class First: UILabel {
 
 }

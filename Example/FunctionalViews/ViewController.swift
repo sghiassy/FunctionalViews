@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import FunctionalViews
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .blue
+        let first = First()
+        first.text = "Functional Views example app"
+        first.frame = self.view.frame
+        first.textColor = .white
+        self.view.addSubview(first)
     }
 
 }
