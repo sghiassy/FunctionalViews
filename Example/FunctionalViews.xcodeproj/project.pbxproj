@@ -81,8 +81,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				607FACD21AFB9204008FA782 /* App */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for FunctionalViews */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				21BCB298ECC7CE09FA0AD129 /* Pods */,
@@ -99,16 +99,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for FunctionalViews */ = {
+		607FACD21AFB9204008FA782 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				AA75293320659425001DC3E6 /* Resources */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for FunctionalViews";
+			name = App;
 			path = FunctionalViews;
 			sourceTree = "<group>";
 		};
@@ -154,6 +153,15 @@
 				4FE80280962556E3421B179F /* Pods_FunctionalViews_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA75293320659425001DC3E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
