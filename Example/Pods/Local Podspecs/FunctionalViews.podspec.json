@@ -1,0 +1,22 @@
+{
+  "name": "FunctionalViews",
+  "version": "0.1.0",
+  "summary": "A short description of FunctionalViews.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Shaheen Ghiassy/FunctionalViews",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shaheen Ghiassy": "shaheen.ghiassy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Shaheen Ghiassy/FunctionalViews.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FunctionalViews/Classes/**/*"
+}

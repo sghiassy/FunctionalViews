@@ -1,0 +1,6 @@
+framework module FunctionalViews {
+  umbrella header "FunctionalViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
