@@ -1,0 +1,24 @@
+{
+  "name": "functionalviews",
+  "version": "1.0.0",
+  "description": "[![CI Status](http://img.shields.io/travis/Shaheen Ghiassy/FunctionalViews.svg?style=flat)](https://travis-ci.org/Shaheen Ghiassy/FunctionalViews) [![Version](https://img.shields.io/cocoapods/v/FunctionalViews.svg?style=flat)](http://cocoapods.org/pods/FunctionalViews) [![License](https://img.shields.io/cocoapods/l/FunctionalViews.svg?style=flat)](http://cocoapods.org/pods/FunctionalViews) [![Platform](https://img.shields.io/cocoapods/p/FunctionalViews.svg?style=flat)](http://cocoapods.org/pods/FunctionalViews)",
+  "main": "index.js",
+  "scripts": {
+    "pod:install": "cd Example; pod cache clean --all; rm -rf Pods; pod install; cd -",
+    "pod:lint": "pod cache clean --all; pod lib lint --swift-version='4.0' --no-clean --verbose --sources='git@github.groupondev.com:ios/ios-groupon-cocoapods.git,https://github.com/CocoaPods/Specs'; cd -",
+    "pod:publish": "pod repo push ios-groupon-cocoapods dealdetails.groupon.mobile.podspec --swift-version='4.0' --allow-warnings --sources='https://github.com/CocoaPods/Specs'",
+    "test": "cd Example; xcodebuild -workspace FunctionalViews.xcworkspace -scheme 'FunctionalViews-Example' -destination 'platform=iOS Simulator,name=iPhone 7,OS=11.2' test; cd -",
+    "x": "open Example/FunctionalViews.xcworkspace",
+    "xcode:info": "cd Example; xcodebuild -workspace FunctionalViews.xcworkspace -list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sghiassy/FunctionalViews.git"
+  },
+  "author": "Shaheen Ghiassy <shaheen.ghiassy@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sghiassy/FunctionalViews/issues"
+  },
+  "homepage": "https://github.com/sghiassy/FunctionalViews#readme"
+}

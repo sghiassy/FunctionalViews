@@ -5,6 +5,14 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - FunctionalViews (0.1.0)
+  - KIF (3.7.1):
+    - KIF/Core (= 3.7.1)
+  - KIF-Quick (1.1.0):
+    - KIF (~> 3.0)
+    - Quick (~> 1.0)
+  - KIF/Core (3.7.1)
+  - KIF/IdentifierTests (3.7.1):
+    - KIF/Core
   - Nimble (7.0.3)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
@@ -14,11 +22,13 @@ PODS:
   - Quick (1.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - FunctionalViews (from `../`)
-  - Nimble (~> 7.0.2)
-  - Nimble-Snapshots (~> 6.3.0)
-  - Quick (~> 1.2.0)
+  - KIF (= 3.7.1)
+  - KIF-Quick (~> 1.1.0)
+  - KIF/IdentifierTests (= 3.7.1)
+  - Nimble (= 7.0.3)
+  - Nimble-Snapshots (= 6.3.0)
+  - Quick (= 1.2.0)
 
 EXTERNAL SOURCES:
   FunctionalViews:
@@ -26,11 +36,13 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  FunctionalViews: 2bec149afe1fe268ee76718b7fcb7fab00dedb75
+  FunctionalViews: 0ee03c210dbfa3c28c8f90d5170ebfc1865c43f2
+  KIF: af73f6a04539bd205622c2e5ce5f910cc2123d4b
+  KIF-Quick: da968bbfad615fd96c0d5eb4d8fd484ecdc26814
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 06bd186f66a750334b2be97f0dadb567d5cdbb15
+PODFILE CHECKSUM: 46ba1b49e26766c869e63f0a5f2d5984c1278cfd
 
 COCOAPODS: 1.4.0

@@ -1,4 +1,15 @@
+########
+##
+## Meta Info
+##
+################
+
+platform :ios, '9.0'
 use_frameworks!
+
+inhibit_all_warnings! # ignore all warnings from all pods
+
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'FunctionalViews_Example' do
   pod 'FunctionalViews', :path => '../'
@@ -6,9 +17,11 @@ target 'FunctionalViews_Example' do
   target 'FunctionalViews_Tests' do
     inherit! :search_paths
 
-    pod 'Quick', '~> 1.2.0'
-    pod 'Nimble', '~> 7.0.2'
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-    pod 'Nimble-Snapshots' , '~> 6.3.0'
+    pod 'KIF', '3.7.1'
+    pod 'Nimble', '7.0.3'
+    pod 'Nimble-Snapshots', '6.3.0'
+    pod 'Quick', '1.2.0'
+    pod 'KIF-Quick', '~> 1.1.0'
+    pod 'KIF/IdentifierTests', '3.7.1'
   end
 end
