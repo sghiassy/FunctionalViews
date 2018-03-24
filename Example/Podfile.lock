@@ -4,7 +4,8 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - FunctionalViews (0.1.0)
+  - FunctionalViews (0.1.0):
+    - UIViewDidAppear
   - KIF (3.7.1):
     - KIF/Core (= 3.7.1)
   - KIF-Quick (1.1.0):
@@ -21,6 +22,7 @@ PODS:
     - Nimble (~> 7.0)
   - Quick (1.2.0)
   - SwiftLint (0.25.0)
+  - UIViewDidAppear (0.1.0)
 
 DEPENDENCIES:
   - FunctionalViews (from `../`)
@@ -31,21 +33,25 @@ DEPENDENCIES:
   - Nimble-Snapshots (= 6.3.0)
   - Quick (= 1.2.0)
   - SwiftLint
+  - UIViewDidAppear (from `~/Dev/UIViewDidAppear`)
 
 EXTERNAL SOURCES:
   FunctionalViews:
     :path: ../
+  UIViewDidAppear:
+    :path: ~/Dev/UIViewDidAppear
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  FunctionalViews: f1ce61fb2f07a285c1ba215e707dd5d201fb0227
+  FunctionalViews: c142e4c3f5727656a48a4a27b83e81c7b81cca7a
   KIF: af73f6a04539bd205622c2e5ce5f910cc2123d4b
   KIF-Quick: da968bbfad615fd96c0d5eb4d8fd484ecdc26814
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
   SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
+  UIViewDidAppear: f181af6c49411797754bb0032a9262787c95a3f2
 
-PODFILE CHECKSUM: 2985aea118f43dce39ae1985106ad4ae3c8879a4
+PODFILE CHECKSUM: ff59625cb74ff95c8b78b71b2c9f05b7431349cf
 
 COCOAPODS: 1.4.0

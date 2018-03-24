@@ -13,6 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'FunctionalViews_Example' do
   pod 'FunctionalViews', :path => '../'
+  pod 'UIViewDidAppear', :path => '~/Dev/UIViewDidAppear'
   pod 'SwiftLint'
 
   target 'FunctionalViews_Tests' do

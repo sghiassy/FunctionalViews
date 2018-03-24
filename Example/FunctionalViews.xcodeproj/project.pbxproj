@@ -387,10 +387,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FunctionalViews_Example/Pods-FunctionalViews_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FunctionalViews/FunctionalViews.framework",
+				"${BUILT_PRODUCTS_DIR}/UIViewDidAppear/UIViewDidAppear.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FunctionalViews.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewDidAppear.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

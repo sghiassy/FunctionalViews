@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FunctionalViews/Classes/**/*"
+  "source_files": "FunctionalViews/Classes/**/*",
+  "dependencies": {
+    "UIViewDidAppear": [
+
+    ]
+  }
 }
