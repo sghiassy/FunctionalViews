@@ -7,6 +7,7 @@
 
 import UIKit
 import FunctionalViews
+import UIViewDidAppear
 
 open class CircleMeetsTheSquareView: UIView {
 
@@ -19,14 +20,16 @@ open class CircleMeetsTheSquareView: UIView {
         text.text = "Circle"
 //        text.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(text)
+    }
 
+    open override func viewDidAppear() {
+        self.layer.delegate = CALayerDirector.sharedInstance
+        self.layer.setNeedsDisplay()
+    }
 
-
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-            self.layer.delegate = CALayerDirector.sharedInstance
-
-            self.layer.setNeedsDisplay()
-        }
+    open override func didMoveToWindow() {
+        super.didMoveToWindow()
+        print("sd");
     }
 
     required public init?(coder aDecoder: NSCoder) {
