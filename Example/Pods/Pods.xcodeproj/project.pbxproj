@@ -70,7 +70,7 @@
 		3D69841F7A8DAD43F21B3EBDF71C363E /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C053CEF2493D2779531E0AD56E8FC641 /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D71D25AEA42CDF9B9D2C146E91AA5F3 /* KIFUITestActor-IdentifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B7AE53B5CE90C91E408C1EE47DAA3 /* KIFUITestActor-IdentifierTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3E7D598A61AD96CAE63DED2004F27182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395110364F6F1CB40A7BE2708EE44B79 /* Foundation.framework */; };
-		3F6F15B50EE6146B89E2BA7D54481682 /* RenderOnceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452859FFA17E16E9FD9BF2BD30DCCEDF /* RenderOnceView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F6F15B50EE6146B89E2BA7D54481682 /* CircleMeetsTheSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452859FFA17E16E9FD9BF2BD30DCCEDF /* CircleMeetsTheSquareView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3FFD8F96B5D7C7BBE22F1DC81937B8BA /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68623F04318FF54C3FB012D6519A9554 /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEE09675B458DA7D2F082C94D68FB67 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		42E1FB77F39B577DFA5963212CCE8BE5 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF2C6555D7817EA8D187E4B2E81BA /* UITouch-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -449,7 +449,7 @@
 		421A78F8D8B5EC9C1F89A98059B16F10 /* UITableView-KIFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView-KIFAdditions.m"; path = "Additions/UITableView-KIFAdditions.m"; sourceTree = "<group>"; };
 		43A4847DF77C5348B6F1911F0762FE6B /* KIFTextInputTraitsOverrides.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFTextInputTraitsOverrides.m; path = Classes/KIFTextInputTraitsOverrides.m; sourceTree = "<group>"; };
 		43EEF037CD2A5F70C60EB8548306B948 /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Nimble/Expectation.swift; sourceTree = "<group>"; };
-		452859FFA17E16E9FD9BF2BD30DCCEDF /* RenderOnceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RenderOnceView.swift; path = FunctionalViews/Classes/RenderOnceView.swift; sourceTree = "<group>"; };
+		452859FFA17E16E9FD9BF2BD30DCCEDF /* CircleMeetsTheSquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMeetsTheSquareView.swift; path = FunctionalViews/Classes/CircleMeetsTheSquareView.swift; sourceTree = "<group>"; };
 		47A118EB8577F5CAED0D8581A38EF3EA /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
 		47D9A128C2E2CC550D233DF20908766D /* UIScreen+KIFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+KIFAdditions.h"; path = "Additions/UIScreen+KIFAdditions.h"; sourceTree = "<group>"; };
 		48A1D8BF1ADCBC8737E9112298013F33 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Sources/Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
@@ -1305,7 +1305,7 @@
 			children = (
 				716A8DC49AB897CE5DABAF2923377AB3 /* First.swift */,
 				68C601021458CBE8D427654C0CC9E362 /* RenderOnceCALayer.swift */,
-				452859FFA17E16E9FD9BF2BD30DCCEDF /* RenderOnceView.swift */,
+				452859FFA17E16E9FD9BF2BD30DCCEDF /* CircleMeetsTheSquareView.swift */,
 				AAFC2AE92067574400597749 /* CALayerDirector.swift */,
 				AAD972D42067FAD600267693 /* CircleMeetsTheSquareLayer.swift */,
 				6B5C80FA2903BA0F28C9DB12CF0D56D0 /* ViewCache.swift */,
@@ -1805,7 +1805,7 @@
 				7A23315A2D5F1161664A2BFD64D93EA1 /* RenderOnceCALayer.swift in Sources */,
 				AAFC2AEC2067576000597749 /* CALayerDirector.swift in Sources */,
 				AAD972D52067FAD600267693 /* CircleMeetsTheSquareLayer.swift in Sources */,
-				3F6F15B50EE6146B89E2BA7D54481682 /* RenderOnceView.swift in Sources */,
+				3F6F15B50EE6146B89E2BA7D54481682 /* CircleMeetsTheSquareView.swift in Sources */,
 				F28294B14272A92A1530B93CCFDE7C73 /* ViewCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

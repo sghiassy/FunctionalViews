@@ -1,5 +1,5 @@
 //
-//  RenderOnceView.swift
+//  CircleMeetsTheSquareView.swift
 //  FunctionalViews
 //
 //  Created by Shaheen Ghiassy on 3/23/18.
@@ -8,7 +8,7 @@
 import UIKit
 import FunctionalViews
 
-open class RenderOnceView: UIView {
+open class CircleMeetsTheSquareView: UIView {
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
