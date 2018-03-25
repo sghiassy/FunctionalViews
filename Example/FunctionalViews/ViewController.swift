@@ -15,7 +15,10 @@ class ViewController: UIViewController, CALayerDelegate {
         super.viewDidLoad()
         self.view.backgroundColor = .white
 
-        let blueLayer = RenderOnceCALayer(layer: self.view.layer)
-        self.view.layer.addSublayer(blueLayer)
+        let blueView = RenderOnceView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        self.view.addSubview(blueView)
+
+//        let blueLayer = RenderOnceCALayer(layer: self.view.layer)
+//        self.view.layer.addSublayer(blueLayer)
     }
 }
