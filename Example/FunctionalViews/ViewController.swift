@@ -13,12 +13,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.blue
+        self.view.backgroundColor = .white
         let first = First()
         first.text = "TravisCI Setup"
         first.frame = self.view.frame
-        first.textColor = UIColor.white
+        first.textColor = UIColor.blue
         self.view.addSubview(first)
+        first.layer.borderColor = UIColor.red.cgColor
+        first.layer.borderWidth = 1.0
     }
 
 }

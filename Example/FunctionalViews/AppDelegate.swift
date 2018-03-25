@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let rootViewController = ViewController()
         let nav = UINavigationController(rootViewController: rootViewController)
+        nav.isNavigationBarHidden = true
 
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
