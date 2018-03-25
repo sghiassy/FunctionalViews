@@ -13,8 +13,20 @@ open class CircleMeetsTheSquareView: UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .red
-        self.layer.delegate = CALayerDirector.sharedInstance
-        self.layer.setNeedsDisplay()
+
+
+        let text = UILabel(frame: frame)
+        text.text = "Circle"
+//        text.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(text)
+
+
+
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.layer.delegate = CALayerDirector.sharedInstance
+
+            self.layer.setNeedsDisplay()
+        }
     }
 
     required public init?(coder aDecoder: NSCoder) {

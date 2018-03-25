@@ -18,4 +18,10 @@ public class CALayerDirector: NSObject, CALayerDelegate {
         cirlce.setNeedsDisplay()
     }
 
+    public func intrinsicContentSizeInvalidated(childView: UIView) {
+        print("ugg")
+    }
+
+    
+
 }
