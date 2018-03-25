@@ -21,6 +21,16 @@ class ViewController: UIViewController {
         self.view.addSubview(first)
         first.layer.borderColor = UIColor.red.cgColor
         first.layer.borderWidth = 1.0
+
+        let image = UIImage(named: "snowman")
+
+        let blueLayer = CALayer()
+        blueLayer.contents = image?.cgImage
+        blueLayer.borderColor = UIColor.red.cgColor
+        blueLayer.borderWidth = 1.0
+
+        blueLayer.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+        self.view.layer.addSublayer(blueLayer)
     }
 
 }
