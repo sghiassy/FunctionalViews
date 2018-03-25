@@ -180,6 +180,7 @@
 		A5BEB16CF00C8AFBC2F7C9C2AEC96BED /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA18464E1DCBB56EB1B83188EEECA4 /* HooksPhase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5D49D5406B5C6891AFAAC85B15526A6 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA38349913FC11B247332C5CD25E8974 /* HaveValidSnapshot.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AAA2830BBCD86431B3EEB0ED968DF4A3 /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0A80B58FEF44D7CDC2FAB8246B839B /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAD972D52067FAD600267693 /* CircleMeetsTheSquareLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD972D42067FAD600267693 /* CircleMeetsTheSquareLayer.swift */; };
 		AAFC2AEC2067576000597749 /* CALayerDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC2AE92067574400597749 /* CALayerDirector.swift */; };
 		AD01C557C584D25766E254EBB30103E6 /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA9362CF16407C283EB52FA2CBB4DAD /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AE02343628B2EC9BD9E4C3A63E5DC943 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 080F078235095BC7ACE724F23CB76DF6 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -557,6 +558,7 @@
 		A98F871410AA5364B4B760409C19AF27 /* Pods_FunctionalViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunctionalViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9AD3D55004B79BD5B1E35B07B92F1D9 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		A9CC22040A9DBE07D1E9DA988485C5ED /* NBSMockedApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBSMockedApplication.m; path = DynamicType/NBSMockedApplication.m; sourceTree = "<group>"; };
+		AAD972D42067FAD600267693 /* CircleMeetsTheSquareLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMeetsTheSquareLayer.swift; sourceTree = "<group>"; };
 		AAFC2AE92067574400597749 /* CALayerDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerDirector.swift; sourceTree = "<group>"; };
 		AB22795A4D4402E594BA5C5C572B7DA7 /* Pods-FunctionalViews_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunctionalViews_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC68E92E9FF16B9CDEBF07FA7379D30D /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
@@ -1305,6 +1307,7 @@
 				68C601021458CBE8D427654C0CC9E362 /* RenderOnceCALayer.swift */,
 				452859FFA17E16E9FD9BF2BD30DCCEDF /* RenderOnceView.swift */,
 				AAFC2AE92067574400597749 /* CALayerDirector.swift */,
+				AAD972D42067FAD600267693 /* CircleMeetsTheSquareLayer.swift */,
 				6B5C80FA2903BA0F28C9DB12CF0D56D0 /* ViewCache.swift */,
 				CB96A0B625235A1DA5CBB7C535389140 /* Pod */,
 				4587F8D0A670A782AF7F40F3B8B08E55 /* Support Files */,
@@ -1801,6 +1804,7 @@
 				890651C61BDDFA8C661855EF9F5821A4 /* FunctionalViews-dummy.m in Sources */,
 				7A23315A2D5F1161664A2BFD64D93EA1 /* RenderOnceCALayer.swift in Sources */,
 				AAFC2AEC2067576000597749 /* CALayerDirector.swift in Sources */,
+				AAD972D52067FAD600267693 /* CircleMeetsTheSquareLayer.swift in Sources */,
 				3F6F15B50EE6146B89E2BA7D54481682 /* RenderOnceView.swift in Sources */,
 				F28294B14272A92A1530B93CCFDE7C73 /* ViewCache.swift in Sources */,
 			);
